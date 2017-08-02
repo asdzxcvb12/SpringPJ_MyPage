@@ -1,0 +1,73 @@
+#top_main {
+	font-size : 30px;
+	font-weight : bold;
+	text-align : center;	
+	margin-top : 10px;
+	margin-bottom : 10px;
+	margin-left : 100px;
+	margin-right : 100px;
+	padding : 10px;
+	border-bottom : 3px dotted black;
+	height: 100%;
+}
+
+ #topMenu {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom : 10px;
+    }
+    #topMenu ul {          
+        list-style-type: none; 
+        margin: 0px;           
+        padding: 0px;         
+    }
+    #topMenu ul li {            
+        color: white;             
+        background-color: #2d2d2d;        
+		float: left;
+        line-height: 30px;
+        vertical-align: middle;   
+        text-align: center;       
+        position: relative;       
+    }
+    .menuLink, .submenuLink {           
+        text-decoration:none;             
+        display: block;                   
+        width: 150px;                    
+        font-size: 12px;                  
+        font-weight: bold;              
+    }
+    .menuLink { 
+        color: white;
+    }
+    .topMenuLi:hover .menuLink {  
+        color: red;                
+        background-color: #4d4d4d;  
+    }
+    .submenuLink {       
+        color: #2d2d2d;          
+        background-color: white;  
+        border: solid 1px black;   
+        margin-top: -1px;           
+    }
+    .longLink {    
+        width: 150px;   
+    }
+    .submenu {            
+        position: absolute;   
+        height: 0px;         
+        overflow: hidden;       
+        transition: height .2s; 
+        -webkit-transition: height .2s; 
+        -moz-transition: height .2s;
+        -o-transition: height .2s;
+    }
+    .topMenuLi:hover .submenu {
+        height: auto;           
+    }
+    .submenuLink:hover {        
+        color: red;              
+        background-color: #dddddd; 
+    }
+	

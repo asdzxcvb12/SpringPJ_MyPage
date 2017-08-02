@@ -1,0 +1,65 @@
+#center {
+	position : relative;
+	width : 100%;
+	padding-left : 100px;
+	float: left;
+}
+
+#center .left_side {
+	display : inline-block;
+	width : 20%;
+	float : left;
+}
+
+#center .right_side {
+	display : inline-block;
+	width: 63%;
+	height : 500px;
+	float : left;
+	border : 2px dotted black;
+	border-radius : 2em;
+	padding : 20px;
+	margin-left : 30px;
+}
+
+#center .table_attribute {
+	width : auto;
+	height : auto;
+	float : top;
+}
+
+#center .side_membership_left {
+	text-decoration : none;
+	font-size : 5px;
+	padding-left : 10px;
+}
+#center .side_membership_right {
+	text-decoration : none;
+	font-size : 5px;
+	text-align: right;
+	padding-right : 10px;
+}
+
+#center .side_menu {
+	width : auto;
+	height : auto;
+	float : top;
+}
+#center .side_menu_inner {
+	border : 2px dotted black;
+	border-radius : 2em;
+	padding-top : 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#center .membership {
+	border : 2px dotted black;
+	border-radius : 2em;
+	margin-right: 200px;	
+}
+#center .terms {
+	border : thin double black;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+

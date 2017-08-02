@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	 
+<mapper namespace="com.my.databases.BaseBoardMapper">
+	<resultMap type="BaseBoard" id="BaseBoardResultMap">
+		<result property="idx" column="IDX"/>
+		<result property="title" column="TITLE"/>
+		<result property="writer" column="WRITER"/>
+		<result property="write_date" column="WRITE_DATE"/>
+		<result property="update_date" column="UPDATE_DATE"/>
+		<result property="lookup" column="LOOKUP"/>
+		<result property="recommendation" column="RECOMMENDATION"/>
+	</resultMap>
+	
+	<select id="getBaseBoardVal" resultMap="BaseBoardResultMap" parameterType="String">
+		select * from ${value}
+	</select>
+</mapper>

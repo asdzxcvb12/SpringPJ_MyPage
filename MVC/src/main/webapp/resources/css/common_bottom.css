@@ -1,0 +1,9 @@
+#bottom_main {
+	text-align: center; 
+	border-top : 3px dotted black;
+	width: 100%;
+	margin-left:100px;
+	margin-right:100px; 
+	margin-top: 40px;
+	background-color: red;
+}
